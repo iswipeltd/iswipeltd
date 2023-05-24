@@ -54,11 +54,15 @@
 
 
     // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
+$(document).ready(function() {
+      $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
-        time: 2000
+        time: 1000,
+        formatter: function (n) {
+          return n + "+";
+        }
+      });
     });
-    
     
     // Back to top button
     $(window).scroll(function () {
