@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2MWh3VkDZdmSxJxQKfxxjD8b53A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,7 +27,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../templates/fplus-master/fplus-master/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../countUp.js-master" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,21 +44,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="745" y="121" key="FileChooserDialogImpl" timestamp="1678534394719">
+    <state x="274" y="21" key="#Notifications" timestamp="1684770520942">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="745" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1678534394719" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1678134655831">
+    <state x="274" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1684770520942" />
+    <state x="745" y="121" key="FileChooserDialogImpl" timestamp="1684763515153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1678134655831" />
-    <state x="5" y="15" width="713" height="727" key="dock-window-1" timestamp="1678559461877">
+    <state x="745" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1684763515153" />
+    <state x="183" y="5" key="SettingsEditor" timestamp="1684770553562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="5" y="15" width="713" height="727" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1678559461877" />
-    <state x="405" y="73" width="672" height="678" key="search.everywhere.popup" timestamp="1678541179518">
+    <state x="183" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1684770553562" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1678773573857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="405" y="73" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1678541179518" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1366.728@0.0.1366.728" timestamp="1678773573857" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1685604262411">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1685604262411" />
+    <state x="491" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1678822879219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1678822879219" />
+    <state x="655" y="0" width="715" height="735" key="dock-window-1" timestamp="1685604939306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="655" y="0" width="715" height="735" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1685604939306" />
+    <state x="686" y="4" width="689" height="734" key="dock-window-2" timestamp="1685728876559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="686" y="4" width="689" height="734" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1685728876559" />
+    <state x="704" y="0" width="672" height="734" key="dock-window-3" timestamp="1685604275870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="704" y="0" width="672" height="734" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1685604275870" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1683107787675">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1683107787675" />
+    <state x="405" y="73" width="672" height="678" key="search.everywhere.popup" timestamp="1685594312790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="73" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1685594312790" />
   </component>
 </project>

@@ -54,11 +54,15 @@
 
 
     // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
+$(document).ready(function() {
+      $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
-        time: 2000
+        time: 1000,
+        formatter: function (n) {
+          return n + "+";
+        }
+      });
     });
-    
     
     // Back to top button
     $(window).scroll(function () {
@@ -69,7 +73,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({scrollTop: 0}, 500, 'easeInOutExpo');
         return false;
     });
 
@@ -77,7 +81,7 @@
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1500,
+        smartSpeed: 800,
         dots: true,
         loop: true,
         center: true,
@@ -105,7 +109,7 @@
         dots: false,
         loop: true,
         autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 800,
         responsive: {
             0:{
                 items:2
