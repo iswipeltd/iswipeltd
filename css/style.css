@@ -514,6 +514,32 @@ h6,
         @media (max-width: 570px) {
           height: 100%; /* Adjust the height for even smaller screens */
         }
+        .bg-header {
+            background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/SAM_1690.jpg) center center no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+              /* Media query for larger screens */
+                @media (min-width: 2560px) {
+                  height: 1300px; /* Adjust the height for larger screens */
+                }
+                 /* Media query for smaller screens */
+                        @media (max-width: 1800px) {
+                          height: 900px; /* Adjust the height for smaller screens */
+                        }
+             /* Media query for smaller screens */
+                @media (max-width: 1200px) {
+                  height: 600px; /* Adjust the height for smaller screens */
+                }
+
+                /* Media query for even smaller screens */
+                @media (max-width: 570px) {
+                  height: 100%; /* Adjust the height for even smaller screens */
+                }
 }
  .bg-header h5 {
    margin-bottom: 40px;
@@ -531,5 +557,27 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+
+@media (max-width: 900px) {
+        .col-lg-5 {
+            min-height: 300px; /* Adjust the min-height for smaller screens */
+        }
+
+        .col-lg-5 img {
+            object-fit: contain; /* Adjust the object-fit for smaller screens */
+        }
+    }
+
+    /* For screens with a minimum width of 768px (larger screens) */
+    @media (min-width: 768px) {
+        .col-lg-5 {
+            min-height: 500px; /* Adjust the min-height for larger screens */
+        }
+
+        .col-lg-5 img {
+            object-fit: cover; /* Adjust the object-fit for larger screens */
+        }
+    }
+
 }
 
