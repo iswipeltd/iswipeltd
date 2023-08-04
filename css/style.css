@@ -93,6 +93,21 @@ h6,
     font-weight: 600 !important;
 }
 
+p.truncated {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.show-more.invisible,
+.show-less.invisible {
+    display: none;
+}
+
+a{
+    cursor: pointer;
+}
+
 
 /*** Button ***/
 .btn {
@@ -580,4 +595,3 @@ h6,
     }
 
 }
-
