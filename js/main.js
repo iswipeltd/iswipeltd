@@ -101,6 +101,13 @@ $(document).ready(function() {
         }
     });
 
+    /*------------------
+        Background Set
+    --------------------*/
+    $('.set-bg').each(function () {
+        var bg = $(this).data('setbg');
+        $(this).css('background-image', 'url(' + bg + ')');
+    });
 
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
